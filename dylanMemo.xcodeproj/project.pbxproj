@@ -14,6 +14,7 @@
 		4004741423F220D6001B1F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4004741323F220D6001B1F60 /* Assets.xcassets */; };
 		4004741723F220D6001B1F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4004741523F220D6001B1F60 /* LaunchScreen.storyboard */; };
 		A3070B4F23F84647007E1D89 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3070B4E23F84647007E1D89 /* Model.swift */; };
+		A3070B5123F912A7007E1D89 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3070B5023F912A7007E1D89 /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4004741623F220D6001B1F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4004741823F220D6001B1F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3070B4E23F84647007E1D89 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A3070B5023F912A7007E1D89 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4004741523F220D6001B1F60 /* LaunchScreen.storyboard */,
 				4004741823F220D6001B1F60 /* Info.plist */,
 				4004741023F220D6001B1F60 /* dylanMemo.xcdatamodeld */,
+				A3070B5023F912A7007E1D89 /* MemoListTableViewController.swift */,
 			);
 			path = dylanMemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				4004741223F220D6001B1F60 /* dylanMemo.xcdatamodeld in Sources */,
 				4004740823F220D6001B1F60 /* AppDelegate.swift in Sources */,
+				A3070B5123F912A7007E1D89 /* MemoListTableViewController.swift in Sources */,
 				4004740A23F220D6001B1F60 /* SceneDelegate.swift in Sources */,
 				A3070B4F23F84647007E1D89 /* Model.swift in Sources */,
 			);
