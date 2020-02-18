@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400318A823FCA4F600B53F8B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400318A723FCA4F600B53F8B /* DataManager.swift */; };
 		4004740823F220D6001B1F60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004740723F220D6001B1F60 /* AppDelegate.swift */; };
 		4004740A23F220D6001B1F60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004740923F220D6001B1F60 /* SceneDelegate.swift */; };
 		4004740F23F220D6001B1F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4004740D23F220D6001B1F60 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400318A723FCA4F600B53F8B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4004740423F220D6001B1F60 /* dylanMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dylanMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4004740723F220D6001B1F60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4004740923F220D6001B1F60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400318A623FCA4D900B53F8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				400318A723FCA4F600B53F8B /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		400473FB23F220D5001B1F60 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		4004740623F220D6001B1F60 /* dylanMemo */ = {
 			isa = PBXGroup;
 			children = (
+				400318A623FCA4D900B53F8B /* Data */,
 				A3070B4D23F84602007E1D89 /* Model */,
 				4004740723F220D6001B1F60 /* AppDelegate.swift */,
 				4004740923F220D6001B1F60 /* SceneDelegate.swift */,
@@ -168,6 +179,7 @@
 				4004740A23F220D6001B1F60 /* SceneDelegate.swift in Sources */,
 				A3070B4F23F84647007E1D89 /* Model.swift in Sources */,
 				A37DCBB423FAC983006FD168 /* UIViewController+Alert.swift in Sources */,
+				400318A823FCA4F600B53F8B /* DataManager.swift in Sources */,
 				400B9B8A23FB96760088AA6B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
