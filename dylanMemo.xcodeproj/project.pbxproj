@@ -13,6 +13,7 @@
 		4004741223F220D6001B1F60 /* dylanMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4004741023F220D6001B1F60 /* dylanMemo.xcdatamodeld */; };
 		4004741423F220D6001B1F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4004741323F220D6001B1F60 /* Assets.xcassets */; };
 		4004741723F220D6001B1F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4004741523F220D6001B1F60 /* LaunchScreen.storyboard */; };
+		400B9B8A23FB96760088AA6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B9B8923FB96760088AA6B /* DetailViewController.swift */; };
 		A3070B4F23F84647007E1D89 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3070B4E23F84647007E1D89 /* Model.swift */; };
 		A3070B5123F912A7007E1D89 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3070B5023F912A7007E1D89 /* MemoListTableViewController.swift */; };
 		A3070B5323F920D3007E1D89 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3070B5223F920D3007E1D89 /* ComposeViewController.swift */; };
@@ -28,6 +29,7 @@
 		4004741323F220D6001B1F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4004741623F220D6001B1F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4004741823F220D6001B1F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400B9B8923FB96760088AA6B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A3070B4E23F84647007E1D89 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A3070B5023F912A7007E1D89 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		A3070B5223F920D3007E1D89 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				A3070B5023F912A7007E1D89 /* MemoListTableViewController.swift */,
 				A3070B5223F920D3007E1D89 /* ComposeViewController.swift */,
 				A37DCBB323FAC983006FD168 /* UIViewController+Alert.swift */,
+				400B9B8923FB96760088AA6B /* DetailViewController.swift */,
 			);
 			path = dylanMemo;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				4004740A23F220D6001B1F60 /* SceneDelegate.swift in Sources */,
 				A3070B4F23F84647007E1D89 /* Model.swift in Sources */,
 				A37DCBB423FAC983006FD168 /* UIViewController+Alert.swift in Sources */,
+				400B9B8A23FB96760088AA6B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
