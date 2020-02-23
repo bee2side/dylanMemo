@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHt-TF-4d7">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="z2a-EL-7ch"/>
+                                    <barButtonItem systemItem="compose" id="z2a-EL-7ch">
+                                        <connections>
+                                            <segue destination="FJW-md-U1j" kind="presentation" id="Z1E-yb-s79"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ul2-Cv-5I4">
@@ -133,10 +137,13 @@
                         <viewLayoutGuide key="safeArea" id="msR-PH-DD3"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Hex-Sg-7a8"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="ul2-Cv-5I4" id="evT-jH-eig"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L3B-f0-ldA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857.97101449275374" y="140.625"/>
+            <point key="canvasLocation" x="858" y="5"/>
         </scene>
         <!--새 메모-->
         <scene sceneID="tyC-Mw-FF0">
@@ -182,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JEg-8T-Hzr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1768.1159420289857" y="-696.42857142857144"/>
+            <point key="canvasLocation" x="1761" y="-739"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kVo-DR-2kB">
@@ -216,7 +223,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9n-Zn-zp8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="857.97101449275374" y="-696.42857142857144"/>
+            <point key="canvasLocation" x="858" y="-738"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Z1E-yb-s79"/>
+    </inferredMetricsTieBreakers>
 </document>
