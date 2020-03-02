@@ -85,6 +85,12 @@
                                             <segue destination="FJW-md-U1j" kind="presentation" id="Z1E-yb-s79"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bBY-QU-t5S"/>
+                                    <barButtonItem systemItem="action" id="Veh-gK-DMw">
+                                        <connections>
+                                            <action selector="share:" destination="rQC-WZ-IeL" id="D0J-eo-hZQ"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ul2-Cv-5I4">
@@ -203,7 +209,7 @@
             <objects>
                 <navigationController id="k9u-2K-JdE" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="dYk-ys-m92">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
